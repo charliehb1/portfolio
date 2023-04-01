@@ -73,9 +73,9 @@ const Home: NextPage = () => {
 				<link rel="icon" href="/CHB.svg" />
 				<link rel="preload" href={`/profile_picture.jpg`} as="Image" />
 			</Head>
-			<main className="max-w-4 m-auto flex min-h-screen max-w-5xl flex-col px-4 pt-10 pb-36 md:pt-20">
+			<main className="max-w-4 m-auto flex min-h-screen max-w-5xl flex-col px-4 pb-36 pt-10 md:pt-20">
 				<div className={`h-screen`}>
-					<div className={`flex flex-col pt-20 md:flex-row`}>
+					<div className={`flex flex-col md:flex-row`}>
 						<div className="h-fit">
 							<ColourContainer>
 								<>
@@ -262,8 +262,9 @@ const Home: NextPage = () => {
 					</div>
 				</div>
 			</main>
-			<div className="flex w-full flex-row justify-center pb-2 text-neutral-400">
-				Charles Hamerston-Budgen | Portfolio version: v0.0.1
+			<div className="px-auto flex w-full flex-col items-center pb-2 text-neutral-400">
+				<span className="w-fit">Charles Hamerston-Budgen</span>
+				<span className="w-fit">Portfolio version: v0.0.1</span>
 			</div>
 		</>
 	)

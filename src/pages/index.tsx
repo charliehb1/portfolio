@@ -12,19 +12,19 @@ const Home: NextPage = () => {
 	const projects = [
 		{
 			title: 'PAPL - University Coursework',
-			link: '',
+			link: 'https://github.com/charliehb1/PAPLCW',
 		},
 		{
 			title: 'Ethical Hacking 1 - University Coursework',
-			link: '',
+			link: 'https://github.com/charliehb1/Courseworks/blob/main/Ethical%20Hacking%20-%20CW1.pdf',
 		},
 		{
 			title: 'Ethical Hacking 2 - University Coursework',
-			link: '',
+			link: 'https://github.com/charliehb1/Courseworks/blob/main/Ethical%20Hacking%20-%20CW2.pdf',
 		},
 		{
 			title: 'Portfolio - Personal Project',
-			link: '',
+			link: 'https://github.com/charliehb1/portfolio',
 		},
 	]
 	const techStack = [

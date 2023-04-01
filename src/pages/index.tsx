@@ -251,7 +251,8 @@ const Home: NextPage = () => {
 							<>
 								<h2 className={`text-3xl ${colourString}`}>Contact Me</h2>
 								<span className="pt-4">
-									You can contact me and view my work on these platforms. I'm always happy to chat!
+									You can contact me and view my work on these platforms. I&apos;m always happy to
+									chat!
 								</span>
 								<div className="pt-4">
 									<HorizontalContacts />

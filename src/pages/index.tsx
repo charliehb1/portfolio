@@ -73,7 +73,7 @@ const Home: NextPage = () => {
 				<link rel="icon" href="/CHB.svg" />
 				<link rel="preload" href={`/profile_picture.jpg`} as="Image" />
 			</Head>
-			<main className="max-w-4 m-auto flex min-h-screen max-w-5xl flex-col px-4 pb-36 pt-10 md:pt-20">
+			<main className="max-w-4 m-auto flex min-h-screen max-w-5xl flex-col px-4 pb-36 pt-10 md:pt-32">
 				<div className={`h-screen`}>
 					<div className={`flex flex-col md:flex-row`}>
 						<div className="h-fit">

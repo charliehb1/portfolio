@@ -119,7 +119,7 @@ const Home: NextPage = () => {
 					</div>
 				</div>
 
-				<div className={animationString}>
+				<div className={`${animationString} pt-56 md:pt-0`}>
 					<ColourContainer>
 						<>
 							<h2 id="about-me" className={`scroll-m-20 text-3xl ${colourString}`}>

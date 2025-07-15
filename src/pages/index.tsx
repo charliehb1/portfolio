@@ -39,7 +39,7 @@ const Home: NextPage = () => {
 		},
 		{
 			title: 'Databases',
-			items: ['Postgres', 'Firestore'],
+			items: ['Postgres', 'Firestore', 'Vector Store'],
 		},
 		{
 			title: 'Platforms',
